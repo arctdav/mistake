@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
+<!-- <script src="./data.js"></script> -->
 <h1>Hello World</h1>
 
-<form action="/action_page.php" method="get">
+<form id="form">
   <label for="topic">Topic:</label>
   <input type="text" id="topic" name="topic"><br><br>
   <label for="name">Name:</label>
@@ -13,9 +14,12 @@
   <textarea id="description" name="description" rows="4" cols="28">
   </textarea>
   <br><br>
-  <button type="button" value="Save">Save</button>
+  <button id="save" type="submit">Save</button>
 </form>
-  <script src="data.js"></script>
+
+<!-- <button id="changeColor"></button> -->
+<script src="popup.js"></script>
+
 </body>
 
 </html>
