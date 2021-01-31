@@ -9,7 +9,7 @@
   ],
   "browser_action": {
     "default_popup": "hello.html",
-    "default_icon": "hello_extensions.png"
+    "default_icon": "icon24.png"
   },
   "background": {
     "scripts": [
@@ -24,5 +24,11 @@
       },
       "description": "Opens hello.html"
     }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "24": "icon24.png",
+    "32": "icon32.png",
+    "64": "icon64.png"
   }
 }
