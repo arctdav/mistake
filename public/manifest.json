@@ -1,6 +1,6 @@
 {
-  "name": "Hello Extensions",
-  "description" : "Base Level Extension",
+  "name": "Mistake",
+  "description" : "This Chrome Extension allow users to log their mistakes and map it a specific topic. When they search for the same topic, their mistakes matching the topic searching will popup and remind the users.",
   "version": "1.0",
   "permissions": [
     "notifications",
@@ -8,7 +8,7 @@
     "*://*.google.com/"
   ],
   "browser_action": {
-    "default_popup": "hello.html",
+    "default_popup": "popup.html",
     "default_icon": "icon24.png"
   },
   "background": {
@@ -16,15 +16,6 @@
     ]
   },
   "manifest_version": 2,
-  "commands": {
-    "_execute_browser_action": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+F",
-        "mac": "MacCtrl+Shift+F"
-      },
-      "description": "Opens hello.html"
-    }
-  },
   "icons": {
     "16": "icon16.png",
     "24": "icon24.png",
