@@ -1,0 +1,25 @@
+{
+  "name": "Mistake",
+  "description" : "This Chrome Extension allow users to log their mistakes and map it a specific topic. When they search for the same topic, their mistakes matching the topic searching will popup and remind the users.",
+  "version": "1.0",
+  "permissions": [
+    "notifications",
+    "storage",
+    "*://*.google.com/"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon24.png"
+  },
+  "background": {
+    "scripts": [
+    ]
+  },
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon16.png",
+    "24": "icon24.png",
+    "32": "icon32.png",
+    "64": "icon64.png"
+  }
+}
